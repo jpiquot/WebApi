@@ -79,6 +79,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.WebRequest" />
@@ -1383,6 +1384,15 @@
     <Compile Include="..\ModelBoundQuerySettings\PageAttributeTest\PageAttributeTest.cs">
       <Link>ModelBoundQuerySettings\PageAttributeTest\PageAttributeTest.cs</Link>
     </Compile>
+	<Compile Include="..\ModelBoundQuerySettings\PageAttributeTest\SkipTokenController.cs">
+      <Link>ModelBoundQuerySettings\PageAttributeTest\PageAttributeController.cs</Link>
+    </Compile>
+    <Compile Include="..\ModelBoundQuerySettings\PageAttributeTest\SkipTokenEdmModel.cs">
+      <Link>ModelBoundQuerySettings\PageAttributeTest\PageAttributeEdmModel.cs</Link>
+    </Compile>
+    <Compile Include="..\ModelBoundQuerySettings\PageAttributeTest\SkipTokenTest.cs">
+      <Link>ModelBoundQuerySettings\PageAttributeTest\PageAttributeTest.cs</Link>
+    </Compile>
     <Compile Include="..\ModelBoundQuerySettings\SelectAttributeTest\SelectAttributeController.cs">
       <Link>ModelBoundQuerySettings\SelectAttributeTest\SelectAttributeController.cs</Link>
     </Compile>
@@ -1809,6 +1819,7 @@
     <Compile Include="..\Validation\DeltaOfTValidationTests.cs">
       <Link>Validation\DeltaOfTValidationTests.cs</Link>
     </Compile>
+    <Compile Include="Aggregation\LinqToSqlDatabaseContext.cs" />
     <Compile Include="Formatter\JsonLight\Metadata\Extensions\HttpRequestMessageExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
